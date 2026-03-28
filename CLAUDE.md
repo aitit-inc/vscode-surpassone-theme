@@ -47,16 +47,16 @@ package.json                         # 拡張マニフェスト (version, publis
 
 ```bash
 # リンク作成 (初回のみ)
-ln -s "$(pwd)" ~/.cursor/extensions/surpassone-theme
+# Cursor は publisher.name-version 形式でないと認識しない
+VERSION=$(node -p "require('./package.json').version")
+ln -s "$(pwd)" ~/.cursor/extensions/surpassone.surpassone-theme-$VERSION
 
 # リンク削除 (マーケットプレイス版に戻すとき)
-rm ~/.cursor/extensions/surpassone-theme
+rm ~/.cursor/extensions/surpassone.surpassone-theme-*
 ```
 
 リンクがある間はテーマ JSON を保存するだけで変更が即反映される。
 Cursor 再起動後に `Cmd+Shift+P` → `Color Theme` → SurpassOne を選択。
-
-**注意**: マーケットプレイスからインストールした拡張と競合する場合は、マーケットプレイス版を一時的に無効化する。
 
 ### テーマの色を調整するとき
 
