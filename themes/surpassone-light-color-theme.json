@@ -209,7 +209,7 @@
         "string.template"
       ],
       "settings": {
-        "foreground": "#5E5E5E"
+        "foreground": "#7E605A"
       }
     },
     {
@@ -355,7 +355,7 @@
       "name": "Regex",
       "scope": ["string.regexp"],
       "settings": {
-        "foreground": "#5E5E5E"
+        "foreground": "#7E605A"
       }
     },
     {
@@ -391,7 +391,7 @@
       "name": "Markdown code",
       "scope": ["markup.inline.raw", "markup.fenced_code"],
       "settings": {
-        "foreground": "#5E5E5E"
+        "foreground": "#7E605A"
       }
     },
     {
