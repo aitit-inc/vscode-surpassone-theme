@@ -47,7 +47,7 @@ package.json                         # 拡張マニフェスト (version, publis
 
 ```bash
 # リンク作成 (初回のみ)
-ln -s /Users/leo/src/vscode-surpassone-theme ~/.cursor/extensions/surpassone-theme
+ln -s "$(pwd)" ~/.cursor/extensions/surpassone-theme
 
 # リンク削除 (マーケットプレイス版に戻すとき)
 rm ~/.cursor/extensions/surpassone-theme
