@@ -1,8 +1,8 @@
 {
   "name": "surpassone-theme",
   "displayName": "SurpassOne Theme",
-  "description": "A flat, monochrome color theme with a single coral accent. Only keywords get color.",
-  "version": "0.3.2",
+  "description": "A flat, monochrome color theme built on coral tonal hierarchy and grayscale.",
+  "version": "0.3.3",
   "publisher": "surpassone",
   "license": "MIT",
   "icon": "surpassone-logo-640.png",
