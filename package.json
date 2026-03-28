@@ -1,0 +1,45 @@
+{
+  "name": "surpassone-theme",
+  "displayName": "SurpassOne Theme",
+  "description": "A flat, minimal color theme with coral accents. Easy on the eyes for daily use.",
+  "version": "0.1.0",
+  "publisher": "surpassone",
+  "license": "MIT",
+  "icon": "surpassone-icon-128.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aitit-inc/vscode-surpassone-theme"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "light",
+    "flat",
+    "minimal"
+  ],
+  "galleryBanner": {
+    "color": "#252525",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "SurpassOne Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/surpassone-dark-color-theme.json"
+      },
+      {
+        "label": "SurpassOne Light",
+        "uiTheme": "vs",
+        "path": "./themes/surpassone-light-color-theme.json"
+      }
+    ]
+  }
+}
