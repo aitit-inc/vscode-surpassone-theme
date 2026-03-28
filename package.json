@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "publisher": "surpassone",
   "license": "MIT",
-  "icon": "surpassone-icon-128.png",
+  "icon": "surpassone-icon-640.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/aitit-inc/vscode-surpassone-theme"
