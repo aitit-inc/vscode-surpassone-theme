@@ -202,10 +202,10 @@
     "minimap.warningHighlight": "#D4A76A",
     "minimap.findMatchHighlight": "#E8755E50",
 
-    "diffEditor.insertedTextBackground": "#8B9E7820",
-    "diffEditor.removedTextBackground": "#E8755E20",
-    "diffEditor.insertedLineBackground": "#8B9E7810",
-    "diffEditor.removedLineBackground": "#E8755E10",
+    "diffEditor.insertedTextBackground": "#8B9E7840",
+    "diffEditor.removedTextBackground": "#E8755E40",
+    "diffEditor.insertedLineBackground": "#8B9E7828",
+    "diffEditor.removedLineBackground": "#E8755E28",
     "diffEditor.diagonalFill": "#2C2D33",
 
     "merge.currentHeaderBackground": "#8B9E7840",
@@ -267,7 +267,7 @@
       "name": "String escape",
       "scope": ["constant.character.escape"],
       "settings": {
-        "foreground": "#E8755E",
+        "foreground": "#DC7C68",
         "fontStyle": "bold"
       }
     },
@@ -289,7 +289,7 @@
       "name": "Variable language (this, self)",
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "#E8755E",
+        "foreground": "#DC7C68",
         "fontStyle": "bold"
       }
     },
@@ -313,7 +313,7 @@
       "name": "Function definition",
       "scope": ["entity.name.function"],
       "settings": {
-        "foreground": "#E8755E",
+        "foreground": "#DC7C68",
         "fontStyle": "bold"
       }
     },
@@ -362,7 +362,7 @@
       "name": "Tag",
       "scope": ["entity.name.tag"],
       "settings": {
-        "foreground": "#E8755E",
+        "foreground": "#DC7C68",
         "fontStyle": "bold"
       }
     },
@@ -416,7 +416,7 @@
       "name": "Markdown heading",
       "scope": ["markup.heading", "entity.name.section.markdown"],
       "settings": {
-        "foreground": "#E8755E",
+        "foreground": "#DC7C68",
         "fontStyle": "bold"
       }
     },
@@ -471,8 +471,8 @@
     "enum": "#D0806E",
     "enumMember": "#B8B9BE",
     "namespace": "#DEE0E5",
-    "function.declaration": { "foreground": "#E8755E", "fontStyle": "bold" },
-    "method.declaration": { "foreground": "#E8755E", "fontStyle": "bold" },
+    "function.declaration": { "foreground": "#DC7C68", "fontStyle": "bold" },
+    "method.declaration": { "foreground": "#DC7C68", "fontStyle": "bold" },
     "function": "#DEE0E5",
     "method": "#DEE0E5",
     "parameter": "#DEE0E5",

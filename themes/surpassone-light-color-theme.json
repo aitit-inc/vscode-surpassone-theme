@@ -242,7 +242,7 @@
         "keyword.other.directive"
       ],
       "settings": {
-        "foreground": "#7E605A"
+        "foreground": "#8A6358"
       }
     },
     {
@@ -381,14 +381,14 @@
         "punctuation.decorator"
       ],
       "settings": {
-        "foreground": "#7E605A"
+        "foreground": "#8A6358"
       }
     },
     {
       "name": "CSS property name",
       "scope": ["support.type.property-name.css", "support.type.property-name.scss", "support.type.property-name.less"],
       "settings": {
-        "foreground": "#7E605A"
+        "foreground": "#8A6358"
       }
     },
     {
@@ -452,14 +452,14 @@
       "name": "JSON key",
       "scope": ["support.type.property-name.json"],
       "settings": {
-        "foreground": "#7E605A"
+        "foreground": "#8A6358"
       }
     },
     {
       "name": "YAML key",
       "scope": ["entity.name.tag.yaml"],
       "settings": {
-        "foreground": "#7E605A"
+        "foreground": "#8A6358"
       }
     }
   ],
